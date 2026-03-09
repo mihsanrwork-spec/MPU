@@ -147,6 +147,111 @@ h3 {
   margin-top: 18px;
   margin-bottom: 8px;
 }
+h4 {
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
+  color: #003366;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+h5 {
+  font-family: "Montserrat", "Segoe UI", Arial, sans-serif;
+  color: #005fa3;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+.cmm-retrofit-gallery {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.cmm-retrofit-row {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 16px;
+  margin-bottom: 14px;
+  flex-wrap: nowrap;
+}
+.cmm-retrofit-row img {
+  width: calc(50% - 8px);
+  max-width: calc(50% - 8px);
+  flex: 1 1 0;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+}
+.vmm-retrofit-gallery .cmm-retrofit-row:first-of-type,
+.vmm-retrofit-gallery .cmm-retrofit-row:nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.vmm-retrofit-gallery .cmm-retrofit-row:first-of-type img,
+.vmm-retrofit-gallery .cmm-retrofit-row:nth-child(2) img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.cmm-retrofit-gallery .cmm-retrofit-row:nth-child(2) img {
+  width: auto;
+  max-width: 60%;
+  flex: none;
+}
+.vmm-retrofit-software .cmm-retrofit-row img {
+  width: auto;
+  max-width: 60%;
+  flex: none;
+}
+.cmm-retrofit-caption {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+.cmm-retrofit-caption a {
+  color: #005fa3;
+  text-decoration: none;
+}
+.cmm-retrofit-caption a:hover {
+  text-decoration: underline;
+}
+.cmm-retrofit-software .cmm-retrofit-row img {
+  max-width: 100%;
+}
+.cmm-retrofit-software,
+.vmm-retrofit-software {
+  text-align: center;
+}
+.vmm-retrofit-gallery {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.cmm-retrofit-item {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cmm-retrofit-caption-top {
+  margin: 0 0 10px 0;
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.5;
+}
+.cmm-retrofit-caption-top a {
+  color: #005fa3;
+  text-decoration: none;
+}
+.cmm-retrofit-caption-top a:hover {
+  text-decoration: underline;
+}
 ul {
   padding-left: 20px;
 }
